@@ -6,19 +6,19 @@ const navs = [{
 },
 {
     Text: ' Menu ',
-    Url: ' link-1.html ',
+    Url: ' menu.html ',
     Class: ' link-1',
     Alt: ' Click Here to visit Link-1 '
 },
 {
     Text: ' About Us ',
-    Url: ' link-2.html',
+    Url: ' about.html',
     Class: ' link-2 ',
     Alt: ' Click here to visit Link-2 '
 },
 {
     Text: ' Staff ',
-    Url: ' link-3.html ',
+    Url: ' staff.html ',
     Class: ' Click here to visit Link-3 ',
     Alt: ' Click Here to visit Link 3 '
 }
