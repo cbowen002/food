@@ -1,0 +1,10 @@
+/* buttons for nav bar */
+
+a:link, a:visited, a:hover, a:active {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
