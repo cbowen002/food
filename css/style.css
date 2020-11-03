@@ -9,3 +9,17 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     display: inline-block;
     }
+
+/* Background colors */
+
+body {
+    background-color: yellow;
+}
+
+h1 {
+    background-color: red;
+}
+
+p {
+    background-color: whitesmoke;
+}
