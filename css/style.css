@@ -1,4 +1,5 @@
 
+
 /* buttons for nav bar */
 
 a:link, a:visited, a:hover, a:active {
@@ -13,13 +14,12 @@ a:link, a:visited, a:hover, a:active {
 /* Background colors */
 
 body {
-    background-color: yellow;
+background-color: gold;
 }
 
-h1 {
-    background-color: red;
-}
 
-p {
-    background-color: whitesmoke;
+/* Mobile First */
+
+@media (min-width: 600px) {
+
 }

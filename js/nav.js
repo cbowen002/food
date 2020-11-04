@@ -8,19 +8,19 @@ const navs = [{
     Text: ' Menu ',
     Url: ' menu.html ',
     Class: ' link-1',
-    Alt: ' Click Here to visit Link-1 '
+    Alt: ' Click Here to visit Menu '
 },
 {
     Text: ' About Us ',
     Url: ' about.html',
     Class: ' link-2 ',
-    Alt: ' Click here to visit Link-2 '
+    Alt: ' Click here to visit About Us '
 },
 {
     Text: ' Staff ',
     Url: ' staff.html ',
-    Class: ' Click here to visit Link-3 ',
-    Alt: ' Click Here to visit Link 3 '
+    Class: ' link-3 ',
+    Alt: ' Click Here to visit Staff '
 }
 
 
