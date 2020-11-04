@@ -18,6 +18,30 @@ background-color: gold;
 }
 
 
+/* Flexbox */
+.container {
+    background: red;
+    height: 50vh;
+    width: 50vw;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-content: space-between;
+  }
+  
+  .item {
+    background: black;
+    margin: 0.5em;
+  }
+
+
+
+
 /* Mobile First */
 
 @media (min-width: 600px) {
