@@ -22,10 +22,36 @@ header {
     letter-spacing: 3px;
 }
 
+.burger {
+    display: block;
+    color: #ccc;
+}
+.nav {
+    margin: 0;
+    background: black;
+    top: 70px;
+    width: 50%;
+    height: calc(100% - 70px);
+    justify-content: space-around;
+    padding: 0;
+    transition: all 400ms;
+}
+.navlink {
+    text-align: center;
+}
+.nav-active {
+    right: 0;
+}
+
+@media screen and (min-width: 679px) {
+   
 .nav {
     display: flex;
     justify-content: space-around;
     width: 30%;
+    position: absolute;
+    right: -100%;
+    flex-direction: column;
 }
 
 .navlink {
@@ -44,28 +70,4 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 678px) {
-    .burger {
-        display: block;
-        color: #ccc;
-    }
-    .nav {
-        margin: 0;
-        background: black;
-        position: absolute;
-        right: -100%;
-        top: 70px;
-        width: 50%;
-        height: calc(100% - 70px);
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 0;
-        transition: all 400ms;
-    }
-    .navlink {
-        text-align: center;
-    }
-    .nav-active {
-        right: 0;
-    }
 }
