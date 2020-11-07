@@ -19,8 +19,8 @@ header {
 }
 
 .logo {
-    color: gold;
-    letter-spacing: 3px;
+    color: black;
+    letter-spacing: 2px;
 }
 .burger {
     display: block;
@@ -132,7 +132,7 @@ header {
       padding: 10px;
       text-align: center;
       width: 100%;
-      background: #fece0c;
+      background:red;
       color: #332902;
       text-transform: uppercase;
       letter-spacing: 5px;
@@ -143,7 +143,7 @@ header {
     
     #error_message{
       margin-bottom: 20px;
-      background: #fe8b8e;
+      background: red;
       padding: 0px;
       text-align: center;
       font-size: 14px;
