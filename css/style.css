@@ -36,6 +36,24 @@ a:link, a:visited, a:hover, a:active {
 
   /* Footer */
 
+  .footer {
+    background: red;
+    color: red;
+    height: 400px;
+    position: relative;
+  }
+
+  .footer .footer-content {
+    height: 350px;
+    display: flex;
+  }
+
+  .footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+
+  }
+  
 
 
 
