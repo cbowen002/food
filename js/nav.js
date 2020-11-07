@@ -31,7 +31,7 @@ const navBarMarkup = `
 ${navs.map(nav => `<li class="navlink"><a href=${nav.Url} class="${nav.Class}" alt="${nav.Alt}">${nav.Text}</a>`).join(' ')}</li>
 `;
 
-document.querySelector(' ul ').innerHTML = navBarMarkup;
+document.querySelector(' #navId ').innerHTML = navBarMarkup;
 
 // Creates hamburger icon for mobile navigation
 

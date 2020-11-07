@@ -38,8 +38,8 @@ a:link, a:visited, a:hover, a:active {
 
   .footer {
     background: red;
-    color: red;
-    height: 400px;
+    color: black;
+    height: 10vh;
     position: relative;
   }
 
@@ -51,6 +51,7 @@ a:link, a:visited, a:hover, a:active {
   .footer .footer-content .footer-section {
     flex: 1;
     padding: 25px;
+    
 
   }
   
