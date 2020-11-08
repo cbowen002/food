@@ -13,12 +13,12 @@ a:link, a:visited, a:hover, a:active {
 /* Flexbox */
 
 .container {
-    background: black;
+    background:black;
     height: 50vh;
     width: 50vw;
     padding: 0.5em;
     margin: 25vh auto 0;
-    
+    text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: no-wrap;
@@ -34,33 +34,28 @@ a:link, a:visited, a:hover, a:active {
     
   }
 
-  /* Footer */
-
-  .footer {
-    background: red;
-    color: black;
-    height: 10vh;
-    position: relative;
-  }
-
-  .footer .footer-content {
-    height: 350px;
-    display: flex;
-  }
-
-  .footer .footer-content .footer-section {
-    flex: 1;
-    padding: 25px;
-    
-
-  }
   
 
+  /* Footer */
+
+
+  
 
 
  /* Global Styling */
 
+.staff {
+  text-align: center
+}
 
+html, 
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: #f6f6f6;
+  font-family: serif;
+}
 
 
 
