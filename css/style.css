@@ -7,6 +7,7 @@ a:link, a:visited, a:hover, a:active {
   padding: 5px 25px;
   text-align: center;
   text-decoration: none;
+  border-radius: 25px;
   display: inline-block;
   }
 
@@ -57,8 +58,9 @@ a:link, a:visited, a:hover, a:active {
   .menu-items {
     padding: 12vh 0;
     text-align: center;
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
   }
   
@@ -66,10 +68,26 @@ a:link, a:visited, a:hover, a:active {
     flex-basis: 30%;
   }
   
-  @media (min-width: 679px) {
+  @media screen and (min-width: 679px) {
     .menu-items {
       flex-direction: row;
     }
+  }
+
+  /* Menu Button */
+  .order-here {
+    border: 0px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    background:red;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
   }
   
 /* Staff Nav */
@@ -104,7 +122,8 @@ a:link, a:visited, a:hover, a:active {
  /* Global Styling */
 
 .staff {
-  text-align: center
+  text-align: center 
+  
 }
 
 html, 

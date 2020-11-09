@@ -11,7 +11,7 @@ const navs = [{
     Alt: ' Click Here to visit Menu '
 },
 {
-    Text: ' About Us ',
+    Text: ' About ',
     Url: ' about.html',
     Class: ' link-2 ',
     Alt: ' Click here to visit About Us '

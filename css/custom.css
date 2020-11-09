@@ -1,6 +1,6 @@
 html,
 header {
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
     white-space: nowrap;
     /* overflow: hidden; */
     margin: 0;
@@ -9,7 +9,7 @@ header {
 }
 
 header {
-    background-color: red;
+    background-color: gold;
     border-bottom: 4px black solid;
     width: 100%;
     height: 70px;
@@ -19,12 +19,12 @@ header {
 }
 
 .logo {
-    color: gold;
+    color: black;
     letter-spacing: 2px;
 }
 .burger {
     display: block;
-    color: #ccc;
+    color: black;
 }
 .nav {
     margin: 0;
