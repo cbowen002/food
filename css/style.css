@@ -7,7 +7,7 @@ a:link, a:visited, a:hover, a:active {
   padding: 5px 25px;
   text-align: center;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 4px;
   display: inline-block;
   }
 
@@ -66,28 +66,34 @@ a:link, a:visited, a:hover, a:active {
   
   .menu-item {
     flex-basis: 30%;
+    padding: 10px;
   }
   
-  @media screen and (min-width: 679px) {
+  @media (min-width: 679px) {
     .menu-items {
       flex-direction: row;
+      
     }
   }
 
   /* Menu Button */
   .order-here {
-    border: 0px;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
-    width: 25%;
-    background:red;
-    color: #332902;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    border: gold;
+    color: gold;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 red;
+    transition: ease-out 0.3s;
+    outline: none;
+  }
+
+  .order-here:hover {
+    box-shadow: inset 100px 0 0 0 gold;
     cursor: pointer;
+    color: black;
+    
   }
   
 /* Staff Nav */
@@ -102,11 +108,13 @@ a:link, a:visited, a:hover, a:active {
   
   .employee {
     flex-basis: 30%;
+    padding: 20px;
   }
 
   @media (min-width: 679px) {
     .employees {
       flex-direction: row;
+      padding: 20px;
     }
   }
   
@@ -122,8 +130,15 @@ a:link, a:visited, a:hover, a:active {
  /* Global Styling */
 
 .staff {
-  text-align: center 
-  
+  padding: 0px;
+  margin: 25px;
+  text-align: center;
+}
+
+.bigmick-meal {
+  padding: 0px;
+  margin: 25px;
+  text-align: center;
 }
 
 html, 
@@ -131,7 +146,7 @@ body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background: #f6f6f6;
+  background: navy;
   font-family: serif;
 }
 

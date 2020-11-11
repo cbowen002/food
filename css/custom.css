@@ -85,9 +85,6 @@ header {
       font-family: 'Josefin Sans', sans-serif;
     }
     
-    body{
-      background: white;
-    }
     
     .wrapper{
       position: absolute;
@@ -132,8 +129,8 @@ header {
       padding: 10px;
       text-align: center;
       width: 100%;
-      background:red;
-      color: #332902;
+      background:black;
+      color:gold;
       text-transform: uppercase;
       letter-spacing: 5px;
       font-weight: bold;
