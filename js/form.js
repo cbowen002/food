@@ -34,6 +34,6 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    alert("Form Submitted Successfully!");
+    alert("Thank You for Your Submission!");
     return true;
   }

@@ -1,5 +1,5 @@
 html,
-header {
+body {
     text-overflow: ellipsis;
     white-space: nowrap;
     /* overflow: hidden; */
@@ -56,10 +56,11 @@ header {
 @media screen and (min-width: 679px) {
     .nav {
         display: flex;
-        justify-content: space-around;
-        width: 30%;
-        position: inherit;
+        position: relative;
+        right: auto;
+        top: auto;
         flex-direction: row;
+        justify-content: space-around;
     }
     
     .navlink {
@@ -88,7 +89,6 @@ header {
       padding: 0;
       box-sizing: border-box;
       outline: none;
-      font-family: 'Josefin Sans', sans-serif;
     }
     
     
