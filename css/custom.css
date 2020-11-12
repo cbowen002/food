@@ -66,6 +66,12 @@ header {
         list-style-type: none;
         margin: 0;
     }
+
+    .navlink a {
+      color: gold;
+      text-decoration: none;
+      font-size: 1.2em;
+  }
     
     .burger {
         font-size: 1.2em;
