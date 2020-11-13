@@ -89,7 +89,6 @@
     box-shadow: inset 100px 0 0 0 tomato;
     cursor: pointer;
     color: black;
-    
   }
 
   /* ======== STAFF PAGE ======== */
@@ -138,7 +137,7 @@
 
 .footer {
   width: 80%;
-  height: 40vh;
+  height: 20vh;
   background-color: gold;
   color: black;
   display: flex;
