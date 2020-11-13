@@ -1,26 +1,27 @@
 /* buttons for nav bar */
-/* a:link, a:visited, a:hover, a:active {
-  background-color: black;
-  color: white;
+a:visited, a:hover {
+  background-color: tomato;
+  color:gold;
   padding: 5px 25px;
   text-align: center;
   text-decoration: none;
   border-radius: 4px;
-  display: inline-block;
-  } */
+
+  }
 
   html,
   body {
       text-overflow: ellipsis;
       white-space: nowrap;
+      /* overflow: hidden; */
       margin: 0;
       padding: 0;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
   }
   
   header {
-      background-color: green;
-      border-bottom: 4px black solid;
+      background-color: black;
+      border-bottom: 4px gold solid;
       width: 100%;
       height: 70px;
       display: flex;
@@ -29,18 +30,18 @@
   }
   
   .logo {
-      color: #ffffff;
-      letter-spacing: 3px;
+      color: gold;
+      letter-spacing: 2px;
   }
   
   .burger {
       display: block;
-      color: #ccc;
+      color: black;
   }
   
   .nav {
       margin: 0;
-      background: green;
+      background: tomato;
       position: absolute;
       right: -100%;
       top: 70px;
@@ -50,7 +51,7 @@
       justify-content: space-around;
       padding: 0;
       transition: all 400ms;
-      color: white;
+      color:black;
       font-size: 1.5rem;
       list-style-type: none;
       text-decoration: none;
@@ -63,6 +64,8 @@
   .nav-active {
       right: 0;
   }
+
+  
   
   @media screen and (min-width: 678px) {
       .nav {
@@ -80,7 +83,7 @@
           margin: 0;
       }
       .navlink a {
-          color: #ccc;
+          color: black;
           text-decoration: none;
           font-size: 1.2em;
       }
