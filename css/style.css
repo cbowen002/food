@@ -40,6 +40,7 @@
     flex-basis: 250px;
   }
 
+
   
 /* ======== MENU PAGE ========== */
 
@@ -64,7 +65,7 @@
     padding: 10px;
   }
   
-  @media scrren and (min-width: 679px) {
+  @media (min-width: 679px) {
     .menu-items {
       flex-direction: row;
       
@@ -79,13 +80,13 @@
     color: gold;
     background-color: black;
     border-radius: 4px;
-    box-shadow: inset 0 0 0 0 red;
+    box-shadow: inset 0 0 0 0 tomato;
     transition: ease-out 0.3s;
     outline: none;
   }
 
   .order-here:hover {
-    box-shadow: inset 100px 0 0 0 gold;
+    box-shadow: inset 100px 0 0 0 tomato;
     cursor: pointer;
     color: black;
     
